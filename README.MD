@@ -1,13 +1,7 @@
-Here’s a clear and well-structured **README.md** you can include for your Profile Card project 👇
-
----
-
 # 🧑‍💼 Responsive Profile Card
 
 A small, **accessible**, and **responsive** profile card built with **plain HTML, CSS, and JavaScript**.
 This project demonstrates semantic markup, responsive design, and testable elements using `data-testid` attributes for automated testing.
-
----
 
 ## 🚀 Project Overview
 
@@ -22,8 +16,6 @@ The Profile Card displays:
 
 It is responsive across **mobile**, **tablet**, and **desktop** screen sizes, and accessible via keyboard navigation.
 
----
-
 ## 🧱 Core Features
 
 ✅ Semantic HTML structure using `<article>`, `<header>`, `<section>`, `<figure>`, `<nav>`, and `<ul>`
@@ -31,8 +23,6 @@ It is responsive across **mobile**, **tablet**, and **desktop** screen sizes, an
 ✅ Live time display updated every second using JavaScript
 ✅ Accessible design with alt text, focusable links, and readable structure
 ✅ Testable structure using required `data-testid` attributes
-
----
 
 ## 🧩 Data Test IDs
 
@@ -50,15 +40,11 @@ Each visible element has a `data-testid` attribute for automated testing.
 | Hobbies List           | `test-user-hobbies`                                             |
 | Dislikes List          | `test-user-dislikes`                                            |
 
----
-
 ## 🖥️ Technologies Used
 
 - **HTML5** (semantic markup)
 - **CSS3** (Flexbox, media queries, and accessibility styling)
 - **Vanilla JavaScript** (for dynamic time updates)
-
----
 
 ## 📁 Project Structure
 
@@ -73,8 +59,6 @@ profile-card/
 ├── style.css
 ├── README.MD
 ```
-
----
 
 ## ⚙️ How to Run Locally
 
@@ -95,8 +79,6 @@ profile-card/
    - Open `index.html` directly in your browser
      _(no build tools or dependencies required)_
 
----
-
 ## 🧠 JavaScript Functionality
 
 The current time updates automatically every second using:
@@ -110,8 +92,6 @@ updateTime();
 setInterval(updateTime, 1000);
 ```
 
----
-
 ## 🧪 Testing Notes
 
 - Automated tests can select elements using their `data-testid` attributes.
@@ -122,14 +102,10 @@ setInterval(updateTime, 1000);
   expect(name).toBeInTheDocument();
   ```
 
----
-
 ## 🌐 Live Demo
 
 🔗 **Live Site:** [https://your-live-link.netlify.app]
 🔗 **GitHub Repo:** [https://github.com/omarologyy]
-
----
 
 ## ✨ Author
 
@@ -137,5 +113,3 @@ setInterval(updateTime, 1000);
 Frontend Developer 💻
 📧 [akoredeumar8@gmail.com](mailto:akoredeumar8@gmail.com)
 🔗 [LinkedIn Profile](https://www.linkedin.com/in/umar-sulaiman-a91a43175)
-
----
